@@ -108,6 +108,8 @@ const _StructFactoryTests = [
     },
 
     function testGetFirstFewUnsignedInt32FieldsUsingOneCall() {
+        /* Basic pointer arithmetic supported
+        */
         const sf = new StructFactory([
             {name: 'a', type: 'uint32_t'},
             {name: 'b', type: 'uint32_t'},
